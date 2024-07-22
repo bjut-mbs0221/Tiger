@@ -1,0 +1,41 @@
+﻿生成启动时间为 2015/5/26 13:26:00。
+     1>项目“E:\Visual Studio\Tiger\Tiger.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt button.cpp game.cpp lable.cpp main.cpp panel.cpp tiger.cpp
+         tiger.cpp
+         panel.cpp
+         main.cpp
+         lable.cpp
+     1>e:\visual studio\tiger\lable.cpp(30): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         game.cpp
+     1>e:\visual studio\tiger\game.cpp(57): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\visual studio\tiger\game.cpp(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\visual studio\tiger\game.cpp(183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\visual studio\tiger\game.cpp(184): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\visual studio\tiger\game.cpp(185): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\visual studio\tiger\game.cpp(186): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         button.cpp
+     1>e:\visual studio\tiger\button.cpp(48): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Tiger.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\Tiger.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Tiger.lib" /MACHINE:X86 /SAFESEH .\Debug\button.obj
+         .\Debug\game.obj
+         .\Debug\lable.obj
+         .\Debug\main.obj
+         .\Debug\panel.obj
+         .\Debug\tiger.obj
+     1>button.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         Tiger.vcxproj -> E:\Visual Studio\Tiger\.\Debug\Tiger.exe
+     1>已完成生成项目“E:\Visual Studio\Tiger\Tiger.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.75

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8b96bb66-1751-4e6b-b547-3e31321029ec}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{90edf43c-a49a-43da-b420-05366a879de9}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4d90d86d-07e4-45e0-89c6-6099a4baa228}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tiger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="afx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="diamond.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Exit.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hill.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hill.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Pause.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="river.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="side.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Start.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Tiger.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
